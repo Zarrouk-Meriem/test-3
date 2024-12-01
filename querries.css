@@ -1,0 +1,408 @@
+@media (max-width: 90em) {
+  header,
+  .hero-section,
+  .skill-section {
+    padding: 0 4rem;
+  }
+
+  .about-section {
+    height: 102rem;
+  }
+
+  .dots7 {
+    right: 0;
+    bottom: 9%;
+  }
+}
+@media (max-width: 78.75em) {
+  .dots1,
+  .dots4 {
+    display: none;
+  }
+  .hero-img {
+    transform: translate(-15%, 0%);
+  }
+  .fleche {
+    left: 27rem;
+    top: -2rem;
+  }
+  .about-section {
+    height: 88rem;
+  }
+  .dots5 {
+    bottom: 47.5%;
+  }
+}
+@media (max-width: 67.5em) {
+  .hero-img {
+    transform: translate(-17%, 0%);
+    height: 61%;
+  }
+  .about-section {
+    height: 76rem;
+  }
+  .portfolio-section {
+    margin-top: 0;
+  }
+  .about-container {
+    transform: scale(85%);
+    margin: 4% 5%;
+  }
+  .line1 {
+    position: absolute;
+    bottom: -1px;
+    right: 60.5%;
+  }
+}
+@media (max-width: 56.25rem) {
+  .grid--4-column {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .dots5 {
+    bottom: 45.5%;
+  }
+  .hero-img {
+    display: none;
+  }
+  .hero-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-text-box {
+    margin-top: 8rem;
+    align-items: center;
+    height: -webkit-fill-available;
+    margin-bottom: 8rem;
+  }
+  .hero-btn {
+    align-self: center;
+  }
+  .tada {
+    left: 81%;
+    top: -15%;
+  }
+  .fleche {
+    left: 143%;
+    top: -67%;
+  }
+  .header-container {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .piw {
+    left: 11.55%;
+  }
+
+  .border3 {
+    transform: translate(0, 66rem);
+  }
+  .skills {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .about-container {
+    transform: scale(67%);
+    margin: 0% -4%;
+  }
+  .about-section h1 {
+    padding: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5.2rem;
+  }
+  .about-section {
+    height: 63.9rem;
+  }
+  .dots7 {
+    right: -39px;
+    bottom: 4%;
+  }
+  .contact-btn {
+    padding: 0.8rem 1rem;
+  }
+  .categories {
+    gap: 10%;
+    width: 47%;
+  }
+  .line1 {
+    right: 60%;
+  }
+  /* .hidden {
+    display: contents;
+  } */
+}
+
+@media (max-width: 45rem) {
+  /* .exceptional-card {
+    transform: scale(70%) ;
+    } */
+  .about-container {
+    transform: scale(55%);
+    margin: 0% -15%;
+  }
+  .about-section h1 {
+    padding-bottom: 1rem;
+    font-size: 5rem;
+  }
+  .about-section {
+    height: 50.9rem;
+  }
+  .dots7 {
+    right: -6rem;
+    bottom: 8%;
+    height: 11%;
+  }
+  .dots5 {
+    height: 3%;
+  }
+  .fleche {
+    top: -67.5%;
+  }
+  .work {
+    padding: 0 5rem;
+    padding-top: 11rem;
+    padding-bottom: 3rem;
+    width: 41.8rem;
+  }
+  .work-img {
+    width: 78%;
+  }
+  .text-work {
+    padding-right: 10rem;
+  }
+  .works {
+    margin-top: 16rem;
+  }
+  .footer-text {
+    font-size: 1.4rem;
+  }
+  .skill-section {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 33.75rem) {
+  .contact-btn,
+  .categories,
+  .cloud2,
+  .cloud1,
+  .cloud3,
+  .cloud4,
+  .cloud5,
+  .last-cloud {
+    display: none;
+  }
+  .menu-icon {
+    display: contents;
+  }
+  .skills {
+    padding: 0 0;
+  }
+  .hero-text-box {
+    text-align: start;
+    align-items: flex-start;
+  }
+  .hero-btn {
+    align-self: flex-start;
+  }
+  header,
+  .skill-section {
+    padding: 0 0;
+  }
+  .skill-section {
+    margin-top: 19rem;
+  }
+  .body {
+    padding: 0 4rem;
+  }
+  .tada {
+    left: 56%;
+  }
+  .piw {
+    left: 18.55%;
+  }
+  .hero-section {
+    display: inline-grid;
+    padding: 0;
+  }
+  .hero-title {
+    font-size: 8rem;
+  }
+  .skill-section h1 {
+    margin-left: 1rem;
+  }
+  .dots3 {
+    left: -18%;
+    bottom: 5%;
+    z-index: -9;
+  }
+  .grid--4-column {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skill-hidden {
+    display: none;
+  }
+  .skill:nth-child(8) {
+    grid-column: auto;
+  }
+  .skill-heading {
+    margin-bottom: 3rem;
+  }
+  .dots5 {
+    top: 35%;
+  }
+  .about-section {
+    height: 38.3rem;
+  }
+  .about-container {
+    transform: scale(39%);
+    margin: -12% -39%;
+  }
+  .about-section h1 {
+    padding: 2rem 0;
+    font-size: 5rem;
+  }
+  .dots6 {
+    left: 0;
+    top: 9%;
+    height: 11%;
+  }
+  .dots7 {
+    right: -3rem;
+  }
+  .border {
+    margin-right: -3rem;
+  }
+  .lastlast {
+    bottom: 0;
+    right: 0;
+    z-index: -9;
+  }
+  .bp1 {
+    right: -1rem;
+    bottom: 39%;
+  }
+  .bp2 {
+    left: -2px;
+    bottom: 0;
+    height: 21%;
+  }
+}
+@media (max-width: 22.5rem) {
+  .body {
+    padding: 0 1rem;
+  }
+  .hero-title {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+  .tada {
+    height: 29%;
+    left: 31%;
+    top: -11%;
+  }
+  .hero-description {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    width: 42%;
+  }
+  .hero-real-btn {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .hero-btn {
+    font-size: 1.4rem;
+    padding: 0 2rem;
+    border-radius: 1rem;
+  }
+  .fleche {
+    left: 174%;
+    top: -24.5%;
+    height: 356%;
+  }
+  .skill-section h1 {
+    font-size: 2.4rem;
+  }
+  .skill-section {
+    margin-top: 3rem;
+  }
+  .piw {
+    left: 11.55%;
+    height: 190%;
+    bottom: 54%;
+  }
+  .dots3 {
+    left: -9%;
+    bottom: 2%;
+    z-index: -9;
+    height: 100%;
+  }
+  .about-section {
+    height: 22rem;
+  }
+  .about-container {
+    transform: scale(21%);
+    margin: -37% -151%;
+  }
+  .about-section h1 {
+    font-size: 2.4rem;
+  }
+  .portfolio-section h1 {
+    font-size: 2.4rem;
+  }
+  .doodle-heading {
+    top: 2.5rem;
+    left: 5rem;
+    height: 2%;
+  }
+  .portfolio-section {
+    margin-left: 1rem;
+  }
+  .border4 {
+    margin-top: 2rem;
+  }
+  .work {
+    padding: 0 2rem;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    width: 16.8rem;
+    border-radius: 2rem;
+  }
+  .works {
+    margin-top: 7rem;
+  }
+  .work h2 {
+    font-size: 1rem;
+  }
+  .work h4 {
+    font-size: 0.6rem;
+  }
+  .text-work {
+    padding-right: 2rem;
+  }
+  .last-dot {
+    top: -85%;
+    height: 37%;
+  }
+  .social-icon {
+    height: 2rem;
+  }
+  .footer-content {
+    padding: 1rem;
+  }
+  .footer-text {
+    font-size: 0.8rem;
+  }
+  .social-icons {
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+  }
+  .bp1 {
+    right: -2rem;
+    bottom: 39%;
+  }
+}
